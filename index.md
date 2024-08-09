@@ -1,47 +1,39 @@
 ---
 layout: home
 title: Home
+description: DASH Webinars
 nav_order: 1
-has_toc: false
-
-# Set this to "false" if you removed 'previousOffering.md'
-has_children: true 
 ---
-<!-- 
-This will be the home page of your module. It should give a small introduction to the student about the workshop topic.
-Add, edit, or remove any content below for the workshop in question. -->
 
-<!-- Title slide image. Replace img src with your own, or comment this out. -->
+{%- assign workshops = site.pages 
+    | where_exp: "item", "item.grand_parent == null"
+    | where_exp: "item", "item.parent == null"
+    | sort: "title" 
+-%}
+
 <img src="assets/img/titleSlide.png" alt="Workshop Title Slide" width="100%">
 
-<!-- Main header -->
-# Getting started with ___.
+# Welcome to DASH: The Data Analysis Support Hub Webinars
 
-This is a short description about the topic of the workshop. Replace this text with your own.
+DASH workshops help registrants with data analysis and visualization by providing training for software programs and coding languages including Excel, LaTeX, Python, R, and SPSS.
 
-In this tutorial, you will learn about ______.
+DASH workshops welcome students, staff, and faculty from any discipline, as well as the public at large. A number of DASH workshops are also geared towards beginners, so even if you’re new to data analysis, we encourage you to sign up and learn!
 
-## Prerequisites
+## 2023-2024 DASH Workshop Topics
 
-<!-- If creating or installing is covered in the module (preparation), mention that in brackets. -->
-- A [GitHub.com](https://www.github.com) account.
-- Installation of [Python](https://www.python.org/downloads/). (This will be covered in the [Preparation](preparation) page)
-- Some familiary with **softwareName/topic here**
+<div markdown="1" style="border: 1px solid #7a003c; border-radius: 6px; margin-bottom: 1em; padding: 0.5em 1em 0; margin-top: 1em;" class="toc">
+<summary style="cursor:default; display: block; border-bottom: 1px solid #302d36; margin-bottom: 0.5em">
+  Workshops
+</summary>
+<ul>
+{% for workshop in workshops %}
+{% if workshop.title != null and workshop.title != "Home" %}
+<li><a href="{{workshop.url | absolute_url}}">{{workshop.title}}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+</div>
 
-<!-- What will the student learn to do, learn to use, etc. -->
-## Learning Objectives
-By the end of this workshop, you will be able to:
-- Learning objective 1
-- Learning objective 2
-- Learning objective 3
-- Learning objective 4
-- You can add more here.
+## Land Acknowledgment
 
-<!-- Estimate the time the workshop will take to complete. Feel free to remove this. -->
-## Duration (optional)
-This module will take around 1 to 2 hours, however feel free to work at your own pace!
-
-## Land Acknowledgement
-
-<!-- Grabs the default SCDS land acknowledgment. If you want to use a custom one, replace this line with it. -->
 {% include def/land_ack.md %}
