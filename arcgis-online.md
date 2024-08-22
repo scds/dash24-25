@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction to Creating and Sharing Maps Using ArcGIS Online
-nav_order: 2024.883
+nav_order: 2025.194
 ---
 
 <img src="assets/img/arcgis-online.png" alt="Workshop Title Slide" width="100%">
