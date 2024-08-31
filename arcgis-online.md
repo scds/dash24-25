@@ -10,7 +10,9 @@ nav_order: 2025.194
 
 This beginner-friendly session introduces participants to the core concepts of Geographic Information Systems (GIS) and geospatial data, then shows how to apply these concepts during a hands-on exercise where you will create a web-based map in ArcGIS Online.
 
-By the end of the workshop, participants will be able to: explain Geographic Information Systems (GIS) concepts and identify potential applications for GIS; locate sources of geospatial data; apply the skills learned to author a simple map using ArcGIS Online.
+By the end of the workshop, participants will be able to: - Explain Geographic Information Systems (GIS) concepts and identify potential applications for GIS
+- Locate sources of geospatial data
+- Apply the skills learned to author a simple map using ArcGIS Online.
 
 [Register for this workshop](.){: .btn .btn-outline }
 

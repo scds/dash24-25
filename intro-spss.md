@@ -14,7 +14,7 @@ This beginner-level workshop will introduce you to the basics of SPSS statistica
 
 ## Workshop Preparation 
 
-None.
+A working copy (either [trial version](https://www.ibm.com/products/spss-statistics#110) or licensed copy) of SPSS is required on participants' laptops.
 
 ## Facilitator Bio
 

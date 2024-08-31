@@ -10,7 +10,10 @@ nav_order: 2025.111
 
 Geospatial data is data about objects or features on or near the surface of the Earth and can be mapped using Geographic Information Systems (GIS) software. This workshop introduces participants to geospatial data formats as well as sources for this data.
 
-This workshop will teach participants to: differentiate between geospatial data models; locate datasets using common sources for geospatial data; and, evaluate a dataset for use.
+This workshop will teach participants to: 
+- Differentiate between geospatial data models
+- Locate datasets using common sources for geospatial data
+- Evaluate a dataset for use.
 
 [Register for this workshop](.){: .btn .btn-outline }
 

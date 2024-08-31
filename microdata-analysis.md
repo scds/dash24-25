@@ -6,14 +6,15 @@ nav_order: 2025.097
 
 <img src="assets/img/microdata-analysis.png" alt="Workshop Title Slide" width="100%">
 
-# Microdata Analysis with Python or R
+# Microdata Analysis with Python
 
+This hands-on workshop will guide participants through the process of data analysis using the Public Use Microdata File (PUMF) from Statistics Canada’s sample surveys. You will learn how to access, manage, and analyze microdata to extract meaningful insights. Participants will engage with sample datasets, explore various statistical techniques, and gain practical experience in interpreting and presenting their findings. Whether you're a student, researcher, or professional, this workshop will equip you with the tools to effectively analyze and utilize Canadian survey data.
 
 [Register for this workshop](.){: .btn .btn-outline }
 
 ## Workshop Preparation 
 
-None.
+Participants will use their MacID to login to McMaster's Jupiter Notebook instance.
 
 ## Facilitator Bio
 

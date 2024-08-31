@@ -14,7 +14,7 @@ This beginner-level workshop will introduce you to the basic concepts of the wor
 
 ## Workshop Preparation 
 
-None.
+None. Participants will use their MacID to login to McMaster's Jupiter Notebook instance.
 
 ## Facilitator Bio
 

@@ -15,7 +15,8 @@ This beginner-level workshop will focus on basic concepts of R programming using
 
 ## Workshop Preparation 
 
-None.
+An installed and working copy of R and R Studio is required on participants' laptops prior to the workshop. Follow instructions provided [here](http://www.rstudio.com/ide/download/desktop).
+
 
 ## Facilitator Bio
 
