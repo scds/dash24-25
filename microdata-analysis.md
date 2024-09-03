@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Microdata Analysis with Python or R
+title: Microdata Analysis with Python
 nav_order: 2025.097
 ---
 
