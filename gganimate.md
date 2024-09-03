@@ -18,4 +18,4 @@ An installed and working copy of R and R Studio is required on participants' lap
 
 ## Facilitator Bio
 
-Subhanya (she/her) brings a background of research in data justice, science and technology studies, and environmental humanities. She is currently thinking through participatory data design which allow for visualizations that are empowering for the end user.
+Subhanya Sivajothy (she/her) brings a background of research in data justice, science and technology studies, and environmental humanities. She is currently thinking through participatory data design which allow for visualizations that are empowering for the end user.
