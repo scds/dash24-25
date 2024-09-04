@@ -10,7 +10,7 @@ nav_order: 2024.869
 
 This beginner-level workshop will introduce you to the basics of SPSS statistical software, how it works, and some basic descriptive statistics and statistical procedures. No prior knowledge of SPSS is required. This session will be recorded and made available openly.
 
-[Register for this workshop](.){: .btn .btn-outline }
+[Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/intro-spss){: .btn .btn-outline }
 
 ## Workshop Preparation 
 

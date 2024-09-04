@@ -10,7 +10,7 @@ nav_order: 2025.061
 
 This beginner-level workshop will introduce you to the basic concepts of the world’s most popular Python programming language. You’ll learn to store data in Python data types and variables, as well as learn how to perform operations on numbers and strings. No prior knowledge of Python is required. This session will be recorded and made available openly.
 
-[Register for this workshop](.){: .btn .btn-outline }
+[Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/intro-python){: .btn .btn-outline }
 
 ## Workshop Preparation 
 

@@ -11,7 +11,7 @@ nav_order: 2024.794
 This beginner-level workshop will focus on basic concepts of R programming using R Studio. Various Data Types and Data Structures will be discussed as well as basic data manipulation. No prior knowledge of R programming is required for this workshop. This workshop consists of a synchronous workshop session, which will be recorded and shared publicly afterward.
 
 
-[Register for this workshop](.){: .btn .btn-outline }
+[Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/intro-r){: .btn .btn-outline }
 
 ## Workshop Preparation 
 
