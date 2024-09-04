@@ -14,7 +14,7 @@ By the end of the workshop, participants will be able to: - Explain Geographic I
 - Locate sources of geospatial data
 - Apply the skills learned to author a simple map using ArcGIS Online.
 
-[Register for this workshop](.){: .btn .btn-outline }
+[Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/arcgis-online?k=f73344c22668c08ecd8f66ade660c8ab){: .btn .btn-outline }
 
 ## Workshop Preparation 
 
