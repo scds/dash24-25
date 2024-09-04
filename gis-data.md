@@ -15,7 +15,7 @@ This workshop will teach participants to:
 - Locate datasets using common sources for geospatial data
 - Evaluate a dataset for use.
 
-[Register for this workshop](.){: .btn .btn-outline }
+[Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/gis-data){: .btn .btn-outline }
 
 ## Workshop Preparation 
 
