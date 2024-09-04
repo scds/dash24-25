@@ -10,7 +10,7 @@ nav_order: 2025.133
 
 This virtual workshop will introduce [gganimate](https://gganimate.com/) in the statistical programming language R. This workshop will go examples on how to create visualizations that change over time and how to and customize the design of those graphs. This will build on the previous SCDS workshop [Data Visualization in R using ggplot2](https://learn.scds.ca/dash23-24/ggplot2.html).
 
-[Register for this workshop](.){: .btn .btn-outline }
+[Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/gganimate){: .btn .btn-outline }
 
 ## Workshop Preparation 
 
