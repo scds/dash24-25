@@ -14,7 +14,9 @@ This hands-on workshop will guide participants through the process of data analy
 
 ## Workshop Preparation 
 
-Participants will use their MacID to login to McMaster's Jupiter Notebook instance.
+This workshop will use [Jupyter Notebooks](https://jupyter.org/) for its exercises. 
+- McMaster participants (and the facilitator) will use their MAC ID to log in to [syzygy](https://mcmaster.syzygy.ca/), McMaster's Jupiter Notebook instance.
+- Non-McMaster participants should be able to use [JupyterLite](https://jupyter.org/try-jupyter/lab/) for the exercises, though the interface and experience may differ slightly from the presentation.
 
 ## Facilitator Bio
 
