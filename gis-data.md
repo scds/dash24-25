@@ -17,10 +17,6 @@ This workshop will teach participants to:
 
 [Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/gis-data){: .btn .btn-outline }
 
-## Workshop Preparation 
-
-None.
-
 ## Facilitator Bio
 
 Christine Homuth (she/her) is the Library's GIS Specialist, providing support and resources to students, researchers, and faculty members working with Geographic Information Systems (GIS) and geospatial data.
