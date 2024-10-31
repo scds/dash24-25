@@ -6,7 +6,7 @@ nav_order: 2024.908
 
 <img src="assets/img/intro-qgis-1.png" alt="Workshop Title Slide" width="100%">
 
-# Visualizing with R gganimate
+# Map making for absolute beginners using QGIS
 
 This **online workshop** is designed for those who are curious about making maps but haven't yet had the opportunity to learn. It will provide a friendly introduction to geographic data and the mapping of this data using the geographic information system (GIS) software, [QGIS](https://qgis.org/). Absolutely no geography or quantitative background is necessary for an engaging experience. 
 
@@ -22,4 +22,4 @@ Attendees can arrive 30 minutes before the workshop to get assistance downloadin
 
 ## Facilitator Bio
 
-Saman’s (she/her) work operates at the intersection of information science and critical geography. She’s particularly interested in the ways in which community-owned and -governed infrastructure can contribute to equitable knowledge systems. Currently, Saman takes care of McMaster’s Lloyd Reeds Map Collection, ensuring community members are able to access, understand, and use the collection for teaching and research.
+Saman Goudarzi’s (she/her) work operates at the intersection of information science and critical geography. She’s particularly interested in the ways in which community-owned and -governed infrastructure can contribute to equitable knowledge systems. Currently, Saman takes care of McMaster’s Lloyd Reeds Map Collection, ensuring community members are able to access, understand, and use the collection for teaching and research.
