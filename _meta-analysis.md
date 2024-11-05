@@ -13,7 +13,7 @@ In this **online workshop**, we will focus on learning how to conduct a meta-ana
 [Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/meta-analysis-r){: .btn .btn-outline }
 
 ## Workshop Preparation 
-
+An installed and working copy of R and R Studio is required on participants' laptops prior to the workshop. Follow instructions provided [here](http://www.rstudio.com/ide/download/desktop).
 
 ## Facilitator Bio
 

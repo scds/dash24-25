@@ -8,12 +8,12 @@ nav_order: 2025.064
 
 # Machine learning with R: K-Means clustering 
 
-This **online workshop** will cover K-Means Clustering, a powerful machine-learning technique used for data segmentation and pattern recognition. K-Means is the most common clustering technique for unsupervised Machine learning
+This **online workshop** will cover K-Means Clustering, a powerful machine-learning technique used for data segmentation and pattern recognition. K-Means is the most common clustering technique for unsupervised Machine learning. Participants will gain a practical understanding of how to use K-means to group data points, interpret cluster results, and apply clustering techniques to real-world datasets for insights and decision-making.
 
 [Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/ml-k-means){: .btn .btn-outline }
 
 ## Workshop Preparation 
-
+An installed and working copy of R and R Studio is required on participants' laptops prior to the workshop. Follow instructions provided [here](http://www.rstudio.com/ide/download/desktop).
 
 ## Facilitator Bio
 

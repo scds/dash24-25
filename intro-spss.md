@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction to Data Analysis with SPSS
+title: Introduction to data analysis with SPSS
 nav_order: 2024.869
 ---
 

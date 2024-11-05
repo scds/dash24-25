@@ -13,8 +13,7 @@ This **online workshop** covers ggplot2, a data visualization package for R. Par
 [Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/data-vis-r){: .btn .btn-outline }
 
 ## Workshop Preparation 
-
+An installed and working copy of R and R Studio is required on participants' laptops prior to the workshop. Follow instructions provided [here](http://www.rstudio.com/ide/download/desktop).
 
 ## Facilitator Bio
-
 Sahar Khademioore is a PhD candidate in the Health Research Methodology program at McMaster University with a background in midwifery. She supports researchers in data analysis using statistical software such as R, SAS, and SPSS, research methodology, and evidence synthesis (including systematic reviews).
