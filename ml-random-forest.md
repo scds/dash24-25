@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Machine learning with R: Random forest classification
+title: Machine learning with R - Random forest classification
 nav_order: 2025.183
 ---
 
