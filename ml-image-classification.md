@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Machine learning with Python: Image classification
+title: "Machine learning with Python: Image classification"
 nav_order: 2024.931
 ---
 
@@ -10,7 +10,7 @@ nav_order: 2024.931
 
 Learn Image Classification in this **online workshop**, where we delve into image recognition using the PyTorch framework. Whether you're a novice or have some prior experience in machine learning, this workshop is tailored to help you grasp the essentials of building image classification models. Participants will gain an understanding of the fundamentals of image classification and learn data augmentation techniques to enhance model accuracy.
 
-[Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/ml-image-classification){: .btn .btn-outline }
+**This workshop was not recorded. However, a previous year's recording and materials for this workshop can be found here: <https://learn.scds.ca/dash23-24/image-classification.html>**
 
 ## Workshop Preparation 
 Workshop participants will use [Google Colab](https://colab.google/), which requires a Google account. If this poses a challenge, please reach out to the [DASH service](mailto:libdash@mcmaster.ca) for alternative arrangements. 
