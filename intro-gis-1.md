@@ -12,7 +12,7 @@ This **online workshop** is designed for those who are curious about making maps
 
 This workshop will provide attendees with the ability to describe geographic data and the basic capabilities of geographic information systems. By completeing the workshop exercise, attendees will become familiar with four basic components of the geographic information systems software, QGIS: (1) the QGIS graphical user interface, (2) geospatial webservices, (3) coordinate reference systerms, and (4) the QGIS print layout tool.
 
-**This workshop was not recorded. If you missed out, make sure to check out the in-person offering of this workshop. [Click here for more information](intro-gis-2)**
+**This workshop was not recorded.**
 
 ## Workshop Preparation 
 
