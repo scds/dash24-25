@@ -14,7 +14,7 @@ In this **online workshop**, we will explore how to use R for conducting linear 
 - Assessing model assumptions
 - Evaluating the model's fit using diagnostic tools like residual plots.
 
-[Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/linear-regression-r){: .btn .btn-outline }
+**This workshop was not recorded. However, a previous year's recording and materials for this workshop can be found here: <https://learn.scds.ca/machine-learning-with-r/linear-regression.html>**
 
 ## Workshop Preparation 
 An installed and working copy of R and R Studio is required on participants' laptops prior to the workshop. Follow instructions provided [here](http://www.rstudio.com/ide/download/desktop).
