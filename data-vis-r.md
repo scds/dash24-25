@@ -10,7 +10,7 @@ nav_order: 2025.094
 
 This **online workshop** covers ggplot2, a data visualization package for R. Participants will learn the basics of the grammar of graphics and how to create various types of informative plots using ggplot2.
 
-[Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/data-vis-r){: .btn .btn-outline }
+**This workshop was not recorded. However, a previous year's recording and materials for this workshop can be found here: <https://learn.scds.ca/dash23-24/ggplot2.html>**
 
 ## Workshop Preparation 
 An installed and working copy of R and R Studio is required on participants' laptops prior to the workshop. Follow instructions provided [here](http://www.rstudio.com/ide/download/desktop).

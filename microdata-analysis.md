@@ -10,8 +10,6 @@ nav_order: 2025.097
 
 This hands-on workshop will guide participants through the process of data analysis using the Public Use Microdata File (PUMF) from Statistics Canada’s sample surveys. You will learn how to access, manage, and analyze microdata to extract meaningful insights. Participants will engage with sample datasets, explore various statistical techniques, and gain practical experience in interpreting and presenting their findings. Whether you're a student, researcher, or professional, this workshop will equip you with the tools to effectively analyze and utilize Canadian survey data.
 
-[Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/microdata-analysis){: .btn .btn-outline }
-
 ## Workshop Preparation 
 
 This workshop will use [Jupyter Notebooks](https://jupyter.org/) for its exercises. 
@@ -21,3 +19,8 @@ This workshop will use [Jupyter Notebooks](https://jupyter.org/) for its exercis
 ## Facilitator Bio
 
 Vivek Jadon (he/him) provides research support in the use of numeric research data. As part of his role, Vivek is McMaster University’s official representative for Statistics Canada’s Data Liberation Initiative (DLI) program and Inter-university Consortium for Political and Social Research (ICPSR). Both of these programs provide researchers with vast archive of research data from various disciplines for high quality research and instruction. Vivek is also involved in building awareness and promoting RDM activities/services at McMaster.
+
+## Workshop Recording
+
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/c45ea670-28b3-427d-8be9-5a7a023b08c0/public"></iframe>
+[View original here.](https://echo360.ca/media/c45ea670-28b3-427d-8be9-5a7a023b08c0/public)
