@@ -16,6 +16,8 @@ This virtual workshop will introduce [gganimate](https://gganimate.com/) in the 
 
 An installed and working copy of R and R Studio is required on participants' laptops prior to the workshop. Follow instructions provided [here](http://www.rstudio.com/ide/download/desktop).
 
+Here is the [txt file](https://github.com/scds/dash24-25/blob/main/gganimate_code) for the code that we will be using.
+
 ## Facilitator Bio
 
 Subhanya Sivajothy (she/her) brings a background of research in data justice, science and technology studies, and environmental humanities. She is currently thinking through participatory data design which allow for visualizations that are empowering for the end user.
