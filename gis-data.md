@@ -20,3 +20,10 @@ This workshop will teach participants to:
 ## Facilitator Bio
 
 Christine Homuth (she/her) is the Library's GIS Specialist, providing support and resources to students, researchers, and faculty members working with Geographic Information Systems (GIS) and geospatial data.
+
+## Workshop Slides
+
+<embed src="assets/docs/Finding-Accessing-and-Adding-GIS-Data-Presentation-Slides.pdf" style="border:none;" width="100%" height="466px">
+
+[Download as PDF.](assets/docs/Finding-Accessing-and-Adding-GIS-Data-Presentation-Slides.pdf)
+
