@@ -1,0 +1,136 @@
+install.packages("tidyverse")
+install.packages('gganimate')
+install.packages("gapminder")
+install.packages("gifski")
+install.packages("av")
+
+#if you run into any issues you might need to do install.packages("rlang")
+
+library(ggplot2)
+library(tidyverse)
+library(gganimate)
+library(gapminder)
+
+#let's take a look at the data we're working with 
+view(gapminder)
+
+#we will begin by plotting all of the countries in this table
+#we are plotting lifespan across the years 
+
+lifespan <- ggplot(gapminder, aes(x=year, y=lifeExp)) +
+  geom_point()
+lifespan
+
+#We don't want to look at all the countries we just want to see Canada
+
+canlifespan <- filter(gapminder, country=="Canada")
+
+lifeplot <- ggplot(canlifespan, aes(x=year, y=lifeExp)) +
+  geom_point() 
+
+lifeplot
+
+#Now we will add our first transition function
+
+lifeplot <- ggplot(canlifespan, aes(x=year, y=lifeExp)) +
+  geom_point() + transition_reveal(year)  
+
+lifeplot
+
+#Let's look at comparing two different countries. 
+
+canfranlifespan <- filter(gapminder, country %in% c("Canada", "France"))
+
+lifeplot <- ggplot(canfranlifespan, aes(x=year, y=lifeExp)) +
+  geom_point() + transition_reveal(year)   
+
+lifeplot
+
+#We want them as separate transitions not just one point.
+#If we specify each country as a separate color than that will change.
+
+lifeplot <- ggplot(canfranlifespan, aes(x=year, y=lifeExp, color=country)) +
+  geom_point() + transition_reveal(year)   
+
+#Just a note that we can just type lifeplot, but we can also use animate function
+animate(lifeplot)
+
+#slowly adding other complex features to the graph 
+lifeplot <- ggplot(canfranlifespan, aes(x = year, y = lifeExp, color = country, group = country)) +
+  geom_point(size = 6) +
+  #the scale color manual lets us map values to color instead of deciding on default.
+  scale_color_manual(values = c("Canada" = "pink", "France" = "orange")) +
+  transition_reveal(year) +
+  #the shadow function will add a little trail so the previous points disappear slowly
+  #the alpha value from 0-1 controls the transparency of the wake
+  #the wake_length lets you control how long the trail is. 
+  shadow_wake(wake_length = 0.2, alpha = 0.5)+
+
+#lets take a few minuts to play around with these values and see how it affects the graph
+animate(lifeplot)
+
+#To make it easier to follow we actually want a line not just points
+
+lifeplot <- ggplot(canfranlifespan, aes(x=year, y=lifeExp, color=country)) +
+  geom_point(size = 6) +
+  scale_color_manual(values = c("Canada" = "pink", "France" = "orange")) +
+  geom_line() + 
+  transition_reveal(year)
+
+animate(lifeplot)
+
+#Let's try out the view function!
+
+lifeplot <- ggplot(canfranlifespan, aes(x=year, y=lifeExp, color=country)) +
+  geom_point(size = 6) +
+  scale_color_manual(values = c("Canada" = "pink", "France" = "orange")) +
+  geom_line() + 
+  transition_reveal(year) +
+  view_follow(fixed_x = TRUE)
+
+animate(lifeplot)
+
+#if you're happy with the functional elements of the graph let's fix the labels
+
+lifeplot <- ggplot(canfranlifespan, aes(x = year, y = lifeExp, color = country, group = country)) +
+  geom_point(size = 5, shape=8) +  # Add points and changing it to a star shape!!
+  geom_line(linewidth = 1) +  # keeping it as a line graph
+  labs(
+    title = "Life Expectancy Over Time: Canada vs France", # Dynamic title!,
+    subtitle = "Data from the Gapminder dataset",
+    x = "Year",
+    y = "Life Expectancy (years)",
+    color = "Country"
+  ) +
+  scale_color_manual(values = c("Canada" = "pink", "France" = "orange")) +  # Custom colors
+  theme_minimal() +  # Use a minimal theme
+  transition_reveal(year)
+  
+#if you don't want the gif to loop you can add this to animate
+  animate(lifeplot, renderer = gifski_renderer(loop = FALSE))
+
+#An alternative method for an interactive title.
+#Here we are using the transition_time instead of reveal, do you notice any differences in the animation?
+
+  lifeplot <- ggplot(canfranlifespan, aes(x = year, y = lifeExp, color = country, group = country)) +
+    geom_point(size = 6) +
+    geom_line(linewidth = 1) +
+    labs(
+      title = "Life Expectancy Over Time: Canada vs France - {frame_time}", # Dynamic title!
+      subtitle = "Data from the Gapminder dataset",
+      x = "Year",
+      y = "Life Expectancy (years)",
+      color = "Country"
+    ) +
+    scale_color_manual(values = c("Canada" = "pink", "France" = "orange")) +
+    theme_minimal() +
+    transition_time(year)
+  
+  animate(lifeplot, renderer = gifski_renderer(loop = FALSE))
+  
+#Now let's save the gif that we've created
+  anim_save("Comparing_Canada_France_LifeExpectancy.gif", lifeplot)
+  
+#If you don't know where it's saved try these functions   
+  getwd()
+  setwd()
