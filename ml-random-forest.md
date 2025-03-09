@@ -4,7 +4,7 @@ title: Machine learning with R - Random forest classification
 nav_order: 2025.183
 ---
 
-<img src="assets/img/ml-random-forest" alt="Workshop Title Slide" width="100%">
+<img src="assets/img/ml-random-forest.png" alt="Workshop Title Slide" width="100%">
 
 # Machine Learning with R: Random Forest Classification Approach
 
