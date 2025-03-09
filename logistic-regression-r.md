@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Logistic regression using R
-nav_order: 2025.175
+nav_order: 2025.238
 ---
 
 <img src="assets/img/logistic-regression-r.png" alt="Workshop Title Slide" width="100%">

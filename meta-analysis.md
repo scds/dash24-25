@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Conducting meta-analysis for systematic reviews using R
-nav_order: 2025.233
+nav_order: 2025.175
 ---
 
 <img src="assets/img/meta-analysis-r.png" alt="Workshop Title Slide" width="100%">
