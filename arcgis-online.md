@@ -14,8 +14,6 @@ By the end of the workshop, participants will be able to: - Explain Geographic I
 - Locate sources of geospatial data
 - Apply the skills learned to author a simple map using ArcGIS Online.
 
-[Register for this workshop](https://libcal.mcmaster.ca/calendar/scds/arcgis-online){: .btn .btn-outline }
-
 ## Workshop Preparation 
 
 To follow along with the workshop, participants will require access to ArcGIS Online. Current McMaster students, staff, and faculty can request a license through the ArcGIS Software Request Form (<https://mcmaster-ca.libwizard.com/f/arcgis>).
@@ -23,3 +21,9 @@ To follow along with the workshop, participants will require access to ArcGIS On
 ## Facilitator Bio
 
 Christine Homuth (she/her) is the Library's GIS Specialist, providing support and resources to students, researchers, and faculty members working with Geographic Information Systems (GIS) and geospatial data.
+
+## Workshop Slides
+
+<embed src="assets/docs/Creating-and-Sharing-Maps-with-ArcGIS-Online.pdf" style="border:none;" width="100%" height="466px">
+
+[Download as PDF.](assets/docs/Creating-and-Sharing-Maps-with-ArcGIS-Online.pdf)
